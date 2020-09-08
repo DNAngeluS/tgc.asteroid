@@ -4,6 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <PublishReadyToRun>false</PublishReadyToRun>
     <TieredCompilation>false</TieredCompilation>
+		<OutputName>TGC.MonoGame.TP</OutputName>
+ 		<RootNamespace>TGC.MonoGame.TP</RootNamespace>
+    <AssemblyName>TGC.MonoGame.TP</AssemblyName>
+		<IntermediateOutputPath>../obj/</IntermediateOutputPath>
+		<OutputPath>../bin/$(Configuration)/</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
